@@ -1,7 +1,6 @@
 node_modules
 .next
 out
-.freebuff
 .env*.local
 .DS_Store
 *.tsbuildinfo
