@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gal_1",
+    "image": "/images/gallery/1.jpg",
+    "caption": { "fa": "بالیاژ کاراملی", "en": "Caramel balayage" },
+    "category": "hair"
+  },
+  {
+    "id": "gal_2",
+    "image": "/images/gallery/2.jpg",
+    "caption": { "fa": "میکاپ مجلسی", "en": "Evening make-up" },
+    "category": "makeup"
+  },
+  {
+    "id": "gal_3",
+    "image": "/images/gallery/3.jpg",
+    "caption": { "fa": "طراحی ناخن", "en": "Nail art" },
+    "category": "nails"
+  },
+  {
+    "id": "gal_4",
+    "image": "/images/gallery/4.jpg",
+    "caption": { "fa": "پاکسازی پوست", "en": "Skin facial" },
+    "category": "skin"
+  },
+  {
+    "id": "gal_5",
+    "image": "/images/gallery/5.jpg",
+    "caption": { "fa": "لیفت مژه", "en": "Lash lift" },
+    "category": "lashes"
+  },
+  {
+    "id": "gal_6",
+    "image": "/images/gallery/6.jpg",
+    "caption": { "fa": "کوتاهی و فرم", "en": "Cut & finish" },
+    "category": "hair"
+  }
+]

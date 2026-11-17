@@ -1,0 +1,36 @@
+{
+  "salonName": { "fa": "کلینیک آبنوس", "en": "Abnous Clinic" },
+  "tagline": {
+    "fa": "کلینیک پوست، مو و زیبایی در دبی",
+    "en": "Skin, hair and beauty clinic in Dubai"
+  },
+  "phone": "+971 4 555 0192",
+  "whatsapp": "https://wa.me/97145550192",
+  "email": "hello@abnous.studio",
+  "address": { "fa": "دبی، جمیرا، خیابان ۱۲، پلاک ۲۴", "en": "24 Street 12, Jumeirah, Dubai" },
+  "cancellation": {
+    "hoursBefore": 12,
+    "policy": {
+      "fa": "لغو یا جابه‌جایی نوبت تا ۱۲ ساعت قبل بدون هزینه است. بعد از آن بیعانه بازگشت نمی‌شود.",
+      "en": "Cancel or reschedule up to 12 hours in advance at no cost. After that the deposit is non-refundable."
+    }
+  },
+  "depositPercent": 25,
+  "slotStepMin": 15,
+  "leadTimeMin": 60,
+  "defaultCurrency": "AED",
+  "sms": {
+    "confirmation": {
+      "fa": "نوبت شما در آبنوس برای {service} در {date} ساعت {time} ثبت شد. کد رزرو: {code}",
+      "en": "Your Abnous appointment for {service} on {date} at {time} is confirmed. Code: {code}"
+    },
+    "reminder": {
+      "fa": "یادآوری: فردا ساعت {time} نوبت {service} در آبنوس دارید.",
+      "en": "Reminder: your {service} appointment at Abnous is tomorrow at {time}."
+    },
+    "cancellation": {
+      "fa": "نوبت {code} در {date} لغو شد. برای رزرو مجدد به سایت مراجعه کنید.",
+      "en": "Booking {code} on {date} was cancelled. Visit the site to rebook."
+    }
+  }
+}

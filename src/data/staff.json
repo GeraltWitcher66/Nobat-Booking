@@ -1,0 +1,80 @@
+[
+  {
+    "id": "stf_sara",
+    "name": { "fa": "سارا احمدی", "en": "Sara Ahmadi" },
+    "role": { "fa": "متخصص مو و رنگ", "en": "Hair & colour specialist" },
+    "bio": {
+      "fa": "دوازده سال تجربه در کوتاهی و رنگ مو، متخصص بالیاژ و کراتین.",
+      "en": "Twelve years of cutting and colour, specialising in balayage and keratin."
+    },
+    "avatar": "/images/team/sara.jpg",
+    "services": ["svc_haircut", "svc_color", "svc_keratin"],
+    "rating": 4.9,
+    "reviewsCount": 214,
+    "schedule": {
+      "sun": { "start": "10:00", "end": "19:00" },
+      "mon": { "start": "10:00", "end": "19:00" },
+      "tue": { "start": "10:00", "end": "19:00" },
+      "wed": { "start": "12:00", "end": "20:00" },
+      "thu": { "start": "10:00", "end": "19:00" },
+      "fri": null,
+      "sat": { "start": "11:00", "end": "19:00" }
+    },
+    "breaks": [{ "start": "13:00", "end": "14:00", "label": { "fa": "استراحت", "en": "Break" } }],
+    "color": "#b76e79",
+    "email": "sara@demo.test",
+    "active": true
+  },
+  {
+    "id": "stf_maryam",
+    "name": { "fa": "مریم کاظمی", "en": "Maryam Kazemi" },
+    "role": { "fa": "متخصص پوست و مژه", "en": "Skin & lash therapist" },
+    "bio": {
+      "fa": "درماتولوژیست زیبایی، متخصص پاکسازی و لیفت مژه با نگاه علمی به پوست.",
+      "en": "Aesthetic skin therapist focused on clinical facials and lash lifting."
+    },
+    "avatar": "/images/team/maryam.jpg",
+    "services": ["svc_skin", "svc_lashes", "svc_brows"],
+    "rating": 4.8,
+    "reviewsCount": 176,
+    "schedule": {
+      "sun": { "start": "11:00", "end": "20:00" },
+      "mon": { "start": "11:00", "end": "20:00" },
+      "tue": null,
+      "wed": { "start": "11:00", "end": "20:00" },
+      "thu": { "start": "11:00", "end": "20:00" },
+      "fri": null,
+      "sat": { "start": "11:00", "end": "18:00" }
+    },
+    "breaks": [{ "start": "14:30", "end": "15:00", "label": { "fa": "استراحت", "en": "Break" } }],
+    "color": "#7f8f7a",
+    "email": "maryam@demo.test",
+    "active": true
+  },
+  {
+    "id": "stf_negar",
+    "name": { "fa": "نگار رستمی", "en": "Negar Rostami" },
+    "role": { "fa": "هنرمند میکاپ و ناخن", "en": "Make-up & nail artist" },
+    "bio": {
+      "fa": "میکاپ عروس و مجلسی، طراحی ناخن و کار با رنگ‌های خاص.",
+      "en": "Bridal and editorial make-up, nail design and colour work."
+    },
+    "avatar": "/images/team/negar.jpg",
+    "services": ["svc_makeup", "svc_nails", "svc_brows", "svc_haircut"],
+    "rating": 4.9,
+    "reviewsCount": 198,
+    "schedule": {
+      "sun": { "start": "10:00", "end": "18:00" },
+      "mon": { "start": "10:00", "end": "18:00" },
+      "tue": { "start": "10:00", "end": "18:00" },
+      "wed": { "start": "10:00", "end": "18:00" },
+      "thu": { "start": "10:00", "end": "18:00" },
+      "fri": null,
+      "sat": { "start": "10:00", "end": "16:00" }
+    },
+    "breaks": [{ "start": "12:30", "end": "13:15", "label": { "fa": "استراحت", "en": "Break" } }],
+    "color": "#c8a96a",
+    "email": "negar@demo.test",
+    "active": true
+  }
+]

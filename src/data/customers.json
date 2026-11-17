@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cus_1",
+    "name": "نیلوفر رحیمی",
+    "phone": "0500000000",
+    "email": "niloofar@example.com",
+    "notes": "پوست حساس؛ محصولات بدون عطر.",
+    "createdAt": "2025-11-02"
+  },
+  {
+    "id": "cus_2",
+    "name": "Layla Hassan",
+    "phone": "0501112233",
+    "email": "layla@example.com",
+    "notes": "Prefers evening appointments.",
+    "createdAt": "2025-12-18"
+  },
+  {
+    "id": "cus_3",
+    "name": "سحر موسوی",
+    "phone": "0502223344",
+    "notes": "رنگ موی ۷.۱ با پایه‌ی خاکستری.",
+    "createdAt": "2026-01-09"
+  },
+  {
+    "id": "cus_4",
+    "name": "Aisha Al Marri",
+    "phone": "0503334455",
+    "email": "aisha@example.com",
+    "notes": "Bridal client — trial booked.",
+    "createdAt": "2026-01-22"
+  },
+  {
+    "id": "cus_5",
+    "name": "مهسا کریمی",
+    "phone": "0504445566",
+    "notes": "همیشه با خواهرش می‌آید.",
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": "cus_6",
+    "name": "Rania Saleh",
+    "phone": "0505556677",
+    "notes": "Allergic to lash glue with latex.",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "cus_7",
+    "name": "فرزانه شریفی",
+    "phone": "0506667788",
+    "notes": "کراتین هر چهار ماه.",
+    "createdAt": "2026-03-28"
+  },
+  {
+    "id": "cus_8",
+    "name": "Dana Yousef",
+    "phone": "0507778899",
+    "email": "dana@example.com",
+    "notes": "Nail art fan, books monthly.",
+    "createdAt": "2026-04-15"
+  },
+  {
+    "id": "cus_9",
+    "name": "پریسا نادری",
+    "phone": "0508889900",
+    "notes": "دو بار غیبت بدون اطلاع.",
+    "createdAt": "2026-05-06"
+  },
+  {
+    "id": "cus_10",
+    "name": "Hala Nasser",
+    "phone": "0509990011",
+    "notes": "Requests Maryam for facials.",
+    "createdAt": "2026-06-11"
+  },
+  {
+    "id": "cus_11",
+    "name": "شیدا امینی",
+    "phone": "0501213141",
+    "notes": "میکاپ مجلسی، همکاری با نگار.",
+    "createdAt": "2026-07-02"
+  },
+  {
+    "id": "cus_12",
+    "name": "Sara Khalifa",
+    "phone": "0502324252",
+    "notes": "New client from Instagram.",
+    "createdAt": "2026-08-19"
+  }
+]

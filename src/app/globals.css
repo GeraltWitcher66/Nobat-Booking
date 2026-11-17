@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-ink antialiased;
+    font-family: var(--font-inter), system-ui, sans-serif;
+    min-height: 100dvh;
+  }
+
+  [dir='rtl'] body {
+    font-family: var(--font-vazirmatn), Tahoma, system-ui, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-primary/20;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary/60 ring-offset-2 ring-offset-bg;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-line/80 bg-surface shadow-soft;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium
+      transition duration-200 ease-out disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-primary-ink hover:brightness-105 active:scale-[0.99];
+  }
+
+  .btn-ghost {
+    @apply btn border border-line bg-transparent text-ink hover:bg-elevated;
+  }
+
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line/70 bg-elevated/70 px-3 py-1 text-xs text-muted;
+  }
+
+  .hairline {
+    @apply h-px w-full bg-line/70;
+  }
+}
+
+/* FullCalendar is themed with the same design tokens as the rest of the app. */
+.admin-calendar .fc {
+  --fc-border-color: rgb(var(--c-line) / 0.7);
+  --fc-today-bg-color: rgb(var(--c-primary) / 0.06);
+  --fc-now-indicator-color: rgb(var(--c-primary));
+  --fc-page-bg-color: transparent;
+  font-size: 11px;
+}
+
+.admin-calendar .fc .fc-scrollgrid {
+  border-color: rgb(var(--c-line) / 0.7);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.admin-calendar .fc .fc-col-header-cell-cushion,
+.admin-calendar .fc .fc-timegrid-slot-label-cushion {
+  color: rgb(var(--c-muted));
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.admin-calendar .fc .fc-timegrid-slot {
+  height: 1.35rem;
+}
+
+.admin-calendar .fc .fc-event {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+.admin-calendar .fc .fc-event:hover {
+  opacity: 1;
+}
+
+.admin-calendar .fc .fc-timegrid-axis-cushion {
+  font-size: 10px;
+  color: rgb(var(--c-muted));
+}
+
+/* Printing an invoice hides the app chrome. */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-area,
+  .print-area * {
+    visibility: visible;
+  }
+
+  .print-area {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    padding: 24px;
+    background: #fff;
+    color: #1a1a1a;
+    box-shadow: none;
+    border: none;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}

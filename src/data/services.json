@@ -1,0 +1,134 @@
+[
+  {
+    "id": "svc_haircut",
+    "slug": "haircut",
+    "name": { "fa": "کوتاهی مو", "en": "Haircut" },
+    "description": {
+      "fa": "کوتاهی و فرم‌دهی مو با مشاوره‌ی چهره‌شناسی و شست‌وشوی تخصصی.",
+      "en": "Cut and shape with a face-shape consultation and a professional wash."
+    },
+    "category": "hair",
+    "durationMin": 45,
+    "bufferMin": 10,
+    "prices": { "AED": 150, "IRR": 3900000 },
+    "staffIds": ["stf_sara", "stf_negar"],
+    "image": "/images/services/haircut.jpg",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "svc_color",
+    "slug": "hair-color",
+    "name": { "fa": "رنگ مو", "en": "Hair colour" },
+    "description": {
+      "fa": "رنگ و بالیاژ با رنگ‌های بدون آمونیاک و مشاوره‌ی رنگ پوست.",
+      "en": "Colour and balayage with ammonia-free pigments and a skin-tone consult."
+    },
+    "category": "color",
+    "durationMin": 120,
+    "bufferMin": 20,
+    "prices": { "AED": 420, "IRR": 11000000 },
+    "staffIds": ["stf_sara"],
+    "image": "/images/services/color.jpg",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "svc_keratin",
+    "slug": "keratin",
+    "name": { "fa": "کراتین", "en": "Keratin treatment" },
+    "description": {
+      "fa": "صافی و ترمیم مو با کراتین بدون فرمالدهید، ماندگاری تا چهار ماه.",
+      "en": "Smoothing and repair with formaldehyde-free keratin, lasting up to four months."
+    },
+    "category": "treatment",
+    "durationMin": 150,
+    "bufferMin": 20,
+    "prices": { "AED": 650, "IRR": 17000000 },
+    "staffIds": ["stf_sara"],
+    "image": "/images/services/keratin.jpg",
+    "active": true
+  },
+  {
+    "id": "svc_makeup",
+    "slug": "makeup",
+    "name": { "fa": "میکاپ", "en": "Make-up" },
+    "description": {
+      "fa": "میکاپ مجلسی و عروس با ماندگاری بالا و محصولات حرفه‌ای.",
+      "en": "Event and bridal make-up with long-wear, professional products."
+    },
+    "category": "makeup",
+    "durationMin": 60,
+    "bufferMin": 15,
+    "prices": { "AED": 300, "IRR": 7800000 },
+    "staffIds": ["stf_negar"],
+    "image": "/images/services/makeup.jpg",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "svc_nails",
+    "slug": "nails",
+    "name": { "fa": "ناخن", "en": "Manicure & pedicure" },
+    "description": {
+      "fa": "مانیکور و پدیکور، کاشت و طراحی ناخن با مواد استریل یک‌بارمصرف.",
+      "en": "Manicure, pedicure and nail art with single-use sterile tools."
+    },
+    "category": "nails",
+    "durationMin": 60,
+    "bufferMin": 10,
+    "prices": { "AED": 120, "IRR": 3100000 },
+    "staffIds": ["stf_negar"],
+    "image": "/images/services/nails.jpg",
+    "active": true
+  },
+  {
+    "id": "svc_brows",
+    "slug": "brow-shaping",
+    "name": { "fa": "اصلاح ابرو", "en": "Brow shaping" },
+    "description": {
+      "fa": "اصلاح، رنگ و طراحی ابرو متناسب با فرم صورت.",
+      "en": "Shaping, tinting and mapping to suit your face."
+    },
+    "category": "brows",
+    "durationMin": 20,
+    "bufferMin": 5,
+    "prices": { "AED": 60, "IRR": 1500000 },
+    "staffIds": ["stf_maryam", "stf_negar"],
+    "image": "/images/services/brows.jpg",
+    "active": true
+  },
+  {
+    "id": "svc_skin",
+    "slug": "skin-facial",
+    "name": { "fa": "پاکسازی پوست", "en": "Skin facial" },
+    "description": {
+      "fa": "پاکسازی عمیق، هیدرودرم و ماسک تخصصی بر اساس نوع پوست.",
+      "en": "Deep cleanse, hydradermabrasion and a mask matched to your skin."
+    },
+    "category": "skin",
+    "durationMin": 75,
+    "bufferMin": 15,
+    "prices": { "AED": 280, "IRR": 7300000 },
+    "staffIds": ["stf_maryam"],
+    "image": "/images/services/skin.jpg",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "svc_lashes",
+    "slug": "lash-lift",
+    "name": { "fa": "لیفت مژه", "en": "Lash lift" },
+    "description": {
+      "fa": "لیفت و لمینت مژه با مواد ضدحساسیت، بدون نیاز به ریموژ روزانه.",
+      "en": "Lift and lamination with hypoallergenic products, no daily mascara."
+    },
+    "category": "lashes",
+    "durationMin": 60,
+    "bufferMin": 10,
+    "prices": { "AED": 220, "IRR": 5700000 },
+    "staffIds": ["stf_maryam"],
+    "image": "/images/services/lashes.jpg",
+    "active": true
+  }
+]

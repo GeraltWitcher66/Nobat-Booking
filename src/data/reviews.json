@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rev_1",
+    "author": { "fa": "نیلوفر ر.", "en": "Niloofar R." },
+    "rating": 5,
+    "text": {
+      "fa": "رنگ مویم دقیقاً همان چیزی شد که می‌خواستم. سارا واقعاً حرفه‌ای است و نوبت هم سر وقت شروع شد.",
+      "en": "My colour came out exactly as I wanted. Sara is a real professional and my appointment started on time."
+    },
+    "serviceId": "svc_color",
+    "date": "2026-09-28",
+    "avatar": "/images/avatars/a1.jpg"
+  },
+  {
+    "id": "rev_2",
+    "author": { "fa": "لیلا ح.", "en": "Layla H." },
+    "rating": 5,
+    "text": {
+      "fa": "رزرو آنلاین خیلی راحت بود؛ سه دقیقه‌ای نوبت گرفتم و پیامک تأیید هم آمد.",
+      "en": "Booking online was so easy — three minutes and the confirmation SMS arrived."
+    },
+    "serviceId": "svc_skin",
+    "date": "2026-09-21",
+    "avatar": "/images/avatars/a2.jpg"
+  },
+  {
+    "id": "rev_3",
+    "author": { "fa": "مریم ص.", "en": "Maryam S." },
+    "rating": 4,
+    "text": {
+      "fa": "پاکسازی پوست فوق‌العاده بود. فقط کاش پارکینگ نزدیک‌تر بود.",
+      "en": "The facial was excellent. I only wish parking was closer."
+    },
+    "serviceId": "svc_skin",
+    "date": "2026-09-14",
+    "avatar": "/images/avatars/a3.jpg"
+  },
+  {
+    "id": "rev_4",
+    "author": { "fa": "عایشه ا.", "en": "Aisha A." },
+    "rating": 5,
+    "text": {
+      "fa": "میکاپ عروسی‌ام با نگار بی‌نقص بود؛ تا آخر شب ثابت ماند.",
+      "en": "Negar did my bridal make-up and it stayed flawless all night."
+    },
+    "serviceId": "svc_makeup",
+    "date": "2026-09-07",
+    "avatar": "/images/avatars/a4.jpg"
+  },
+  {
+    "id": "rev_5",
+    "author": { "fa": "مهسا ک.", "en": "Mahsa K." },
+    "rating": 5,
+    "text": {
+      "fa": "کراتین موهایم را نجات داد. مشاوره‌ی قبل از کار خیلی دقیق بود.",
+      "en": "The keratin treatment saved my hair, and the consultation beforehand was thorough."
+    },
+    "serviceId": "svc_keratin",
+    "date": "2026-08-30",
+    "avatar": "/images/avatars/a2.jpg"
+  },
+  {
+    "id": "rev_6",
+    "author": { "fa": "رانیا س.", "en": "Rania S." },
+    "rating": 4,
+    "text": {
+      "fa": "لیفت مژه طبیعی و تمیز انجام شد. کمی منتظر ماندن داشتم ولی ارزشش را داشت.",
+      "en": "The lash lift looked natural and clean. A short wait, but worth it."
+    },
+    "serviceId": "svc_lashes",
+    "date": "2026-08-22",
+    "avatar": "/images/avatars/a3.jpg"
+  },
+  {
+    "id": "rev_7",
+    "author": { "fa": "فرزانه ش.", "en": "Farzaneh S." },
+    "rating": 5,
+    "text": {
+      "fa": "محیط آرام و تمیز، و امکان لغو یا جابه‌جایی نوبت از پنل واقعاً کاربردی است.",
+      "en": "Calm, spotless space — and cancelling or moving my booking in the portal is genuinely useful."
+    },
+    "serviceId": "svc_haircut",
+    "date": "2026-08-11",
+    "avatar": "/images/avatars/a1.jpg"
+  },
+  {
+    "id": "rev_8",
+    "author": { "fa": "دانا ی.", "en": "Dana Y." },
+    "rating": 5,
+    "text": {
+      "fa": "طراحی ناخن‌ام دقیقاً مثل عکسی بود که نشان دادم. حتماً برمی‌گردم.",
+      "en": "My nail art matched the photo I showed exactly. I'll definitely be back."
+    },
+    "serviceId": "svc_nails",
+    "date": "2026-08-02",
+    "avatar": "/images/avatars/a4.jpg"
+  },
+  {
+    "id": "rev_9",
+    "author": { "fa": "پریسا ن.", "en": "Parisa N." },
+    "rating": 4,
+    "text": {
+      "fa": "اصلاح ابرو سریع و دقیق. پرداخت بیعانه هم راحت بود.",
+      "en": "Quick, precise brow shaping, and the deposit payment was simple."
+    },
+    "serviceId": "svc_brows",
+    "date": "2026-07-25",
+    "avatar": "/images/avatars/a2.jpg"
+  },
+  {
+    "id": "rev_10",
+    "author": { "fa": "هاله ن.", "en": "Hala N." },
+    "rating": 5,
+    "text": {
+      "fa": "مریم برای پوست من بهترین است؛ هر بار نتیجه بهتر می‌شود.",
+      "en": "Maryam is the best for my skin — every session gets better."
+    },
+    "serviceId": "svc_skin",
+    "date": "2026-07-16",
+    "avatar": "/images/avatars/a3.jpg"
+  }
+]
