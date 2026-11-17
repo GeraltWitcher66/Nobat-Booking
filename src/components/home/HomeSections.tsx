@@ -233,10 +233,7 @@ export function HomeSections({ locale, dict }: Props) {
                   src={asset(item.image)}
                   alt={item.caption[locale]}
                   loading="lazy"
-                  className={cn(
-                    'w-full object-cover transition duration-500 group-hover:scale-[1.03]',
-                    index % 3 === 0 ? 'h-56 sm:h-64' : 'h-56',
-                  )}
+                  className="h-56 w-full object-cover transition duration-500 group-hover:scale-[1.03]"
                 />
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/70 to-transparent p-3 text-xs text-white opacity-0 transition group-hover:opacity-100">
                   {item.caption[locale]}
