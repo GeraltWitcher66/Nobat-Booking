@@ -2,7 +2,9 @@
 
 A bilingual (Persian / English) booking front end for a beauty clinic: public landing page, a five-step booking flow with SMS verification and simulated payment, a customer portal, a full admin panel and a specialist panel — all running as a static site on GitHub Pages with all data stored in the browser.
 
-**Live demo:** `https://YOUR-USERNAME.github.io/Nobat-Booking/` — replace `YOUR-USERNAME` with your GitHub account after the first deployment.
+**Live demo:** https://geraltwitcher66.github.io/Nobat-Booking/
+
+Persian (default): https://geraltwitcher66.github.io/Nobat-Booking/fa/ · English: https://geraltwitcher66.github.io/Nobat-Booking/en/
 
 ---
 
